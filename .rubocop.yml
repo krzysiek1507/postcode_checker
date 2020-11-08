@@ -1,0 +1,13 @@
+AllCops:
+  Exclude:
+    - Gemfile
+    - Guardfile
+    - bin/**/*
+    - config/**/*
+    - spec/spec_helper.rb
+    - tmp/**/*
+  NewCops: enable
+  TargetRubyVersion: 2.6
+
+Style/Documentation:
+  Enabled: false
