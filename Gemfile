@@ -31,9 +31,11 @@ group :development do
 end
 
 group :test do
+  gem 'capybara'
   gem 'guard-rspec', require: false
   gem 'rspec-rails'
   gem 'vcr'
+  gem 'webdrivers'
   gem 'webmock'
 end
 
