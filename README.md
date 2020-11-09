@@ -1,24 +1,13 @@
-# README
+## Installation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. install ruby 2.6.6
+2. run `bundle`
 
-Things you may want to cover:
+## How to run
 
-* Ruby version
+Run `bin/rails s` and go to http://localhost:3000/postcodes/check
 
-* System dependencies
 
-* Configuration
+## Testing
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run `rspec`
