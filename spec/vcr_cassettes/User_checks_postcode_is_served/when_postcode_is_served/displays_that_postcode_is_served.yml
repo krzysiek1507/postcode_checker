@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.postcodes.io/postcodes/SE17QD
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.78.0
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 09 Nov 2020 11:58:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '808'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d4e242c01df80309cc39262444a5a8fb61604923125; expires=Wed, 09-Dec-20
+        11:58:45 GMT; path=/; domain=.postcodes.io; HttpOnly; SameSite=Lax
+      X-Gnu:
+      - Michael J Blanchard
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"328-u44qY7noxu73p14ob4V/i1XG2UY"
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '73203'
+      Accept-Ranges:
+      - bytes
+      Cf-Request-Id:
+      - 064e7885bb0000b821bca21000000001
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=74E88JQCD%2FMsPf1r4NG2KpDRbPU3OA82Mk%2BTPFJD%2F6etRXD4dtcFWltJgDISSx1K%2BqxXWNJ7grc9QF5JfwJ2xRdz6j8xVOfrbsQ1pM%2FyhDNrh2uKpQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5ef75d1c5d6cb821-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":200,"result":{"postcode":"SE1 7QD","quality":1,"eastings":531513,"northings":179395,"country":"England","nhs_ha":"London","longitude":-0.106793,"latitude":51.498204,"european_electoral_region":"London","primary_care_trust":"Southwark","region":"London","lsoa":"Southwark
+        034A","msoa":"Southwark 034","incode":"7QD","outcode":"SE1","parliamentary_constituency":"Bermondsey
+        and Old Southwark","admin_district":"Southwark","parish":"Southwark, unparished
+        area","admin_county":null,"admin_ward":"St George''s","ced":null,"ccg":"NHS
+        South East London","nuts":"Lewisham and Southwark","codes":{"admin_district":"E09000028","admin_county":"E99999999","admin_ward":"E05011114","parish":"E43000218","parliamentary_constituency":"E14000553","ccg":"E38000244","ccg_id":"72Q","ced":"E99999999","nuts":"UKI44"}}}'
+  recorded_at: Mon, 09 Nov 2020 11:58:45 GMT
+recorded_with: VCR 6.0.0

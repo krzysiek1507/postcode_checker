@@ -1,0 +1,10 @@
+<% if params[:postcode].present? %>
+  <% if @postcode_allowed %>
+    <p>We serve this postcode</p>
+  <% else %>
+    <p>Unfortunately, we don't serve this postcode</p>
+  <% end %>
+<% end %>
+
+<h3>Check:</h3>
+<%= render 'form' %>
